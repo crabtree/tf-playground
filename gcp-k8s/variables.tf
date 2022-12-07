@@ -1,3 +1,9 @@
+variable "zone" {
+    type         = string
+    default      = "europe-west1-c"
+    description  = "Google cloud zone"
+}
+
 variable "vpc_network_name" {
     type = string
     description = "VPC network name"
